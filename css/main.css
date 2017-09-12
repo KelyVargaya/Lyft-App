@@ -1,0 +1,68 @@
+
+/*Estilos del Index*/
+#inicio {
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo img {
+	width: 100px;
+	margin-top: 50px;
+}
+
+.botones{
+	text-align: center;
+	position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+
+.btn {
+	background-color: transparent;
+	border: 1px solid white !important;
+	color: #fff;
+	font-size: 27px;
+	display: inline-block;
+}
+
+#btnRegistro {
+	background: -webkit-linear-gradient(left, #7200BF , #ff00bf); 
+    background: -o-linear-gradient(right, #7200BF,  #ff00bf); 
+    background: -moz-linear-gradient(right, #7200BF,  #ff00bf); 
+    background: linear-gradient(to right, #7200BF ,  #ff00bf); 
+    display: inline-block;
+}
+
+/*estilos index Final*/
+
+
+/*Estilos de registro*/
+
+
+.sign-up-phone p {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.codigo-pais {
+	width: 100%;	
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
