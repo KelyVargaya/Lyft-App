@@ -8,7 +8,8 @@ const ruta = {
     inicio: function () {
         ruta.variable.map = new google.maps.Map($("#map")[0], {
             zoom: 10,
-            center: { lat: -33.4724728, lng: -70.9100251 },
+            center: { lat: -16.457148, lng: -71.530759
+ },
             mapTypeControl: false,
             zoomControl: false,
             streetViewControl: false
@@ -72,7 +73,7 @@ const ruta = {
         let latitude, longitude;
             latitude = position.coords.latitude;
             longitude = position.coords.longitude;
-
+            document.getElementById("origen")= latitude + "" +longitude; 
             marcaOrigen.setPosition(new google.maps.LatLng(latitude, longitude));
             ruta.variable.map.setCenter({ lat: latitude, lng: longitude });
             ruta.variable.map.setZoom(17);
