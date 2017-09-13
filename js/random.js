@@ -1,5 +1,3 @@
-/* Gneracion del codigo para validar nuemro telefonico*/
-
 const aleatorio = {
 	variable: {
 		codigo: undefined,
@@ -29,7 +27,7 @@ const aleatorio = {
 			if(inputVal != codigo){
        		 $(".modal-body").append("<span class='span-style'>Coidgo invalido</span>");
 			}else{
-				window.location.href="usuarioRegistro.html";
+				window.location.href="usuario.html";
 			};
 	},
 };
