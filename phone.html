@@ -31,7 +31,8 @@
         </div>
       
         <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-          <input type="tel" name="phone" class="codigo-pais form-control" id="code-country"> 
+          <input type="tel" name="phone" class="codigo-pais form-control" id="code-country" placeholder="Introduzca numero">
+          <label for="phone" data-error="Debes ingresar un número valido" data-success="OK!"></label> 
         </div>
     </div>
     <div class="row">
@@ -41,8 +42,8 @@
     </div>
    
   </div>
-  <div class="sign-up-button">
 
+  <div class="sign-up-button">
     <button type="button" class="btn btn-sign-up" id="btn-siguiente" data-toggle="modal" data-target="#myModal">Siguiente</button>
   </div>
 
@@ -53,6 +54,7 @@
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title text-uppercase" id="myModalLabel">Introduzaca su codigo aqui!:</h4>
         </div>
+
         <div class="modal-body">
           <form>
             <div class="form-group">
